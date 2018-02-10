@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 déc. 2017, 08:40:05
+    Author     : Gabin
+*/
+
+#combob {
+    -fx-background-color: #0E79C7;
+}
+
+#glob{
+    -fx-background-color: #360704;
+}
+
+#tabpane{
+    -fx-background-color: #8c1810;
+}
+
+#namestats{
+    -fx-background-color: #360704;
+}
+
+#teamspane {
+    -fx-background-color: #360704;
+}
+
+.list-view .list-cell:even {
+-fx-background-color: #fbf3e6;
+-fx-text-fill: red;
+}
+.list-view .list-cell:odd {
+-fx-background-color: #fbf3e6;
+-fx-text-fill: red;
+}

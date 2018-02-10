@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Team'Dex.jnlp">
+  <information>
+    <title>Team'Dex</title>
+    <vendor>Gabin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Team'Dex.jar" size="40914" download="eager" />
+    <jar href="lib/jsoup-1.11.1.jar" size="394057" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Team'Dex" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="View.TeamDex"  name="Team'Dex" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 déc. 2017, 08:40:05
+    Author     : Gabin
+*/
+
+#combob {
+    -fx-background-color: #4bc4ff;
+}
+
+#combob > .list-cell {
+    -fx-text-fill: black;
+}
+
+
+#glob{
+    -fx-background-color: #420808 !important; 
+}
+
+#tabpane{
+    -fx-background-color: #8c1810;
+}
+
+#tabpane .tab-header-background {
+    -fx-background-color: #220202;
+}
+
+#tabpane .tab
+{
+    -fx-background-color: #4bc4ff;
+}
+
+#tabpane .tab-label
+{
+    -fx-text-fill: #101011;
+}
+
+#namestats{
+    -fx-background-color: #420808 !important;
+}
+
+#teamspane {
+    -fx-background-color: #420808 !important;
+}
+
+
+
+#entries .list-cell .separator *.line {
+    -fx-border-style: solid;
+    -fx-border-width: 0 1 0 0; /* its make really one-pixel-border */
+}
+
+#entries .list-cell {
+    -fx-background-color: #101011;
+}
+
+#entries .list-cell .label {
+    -fx-text-fill: #A29798;
+}
+#entries .list-cell .separator *.line {
+    -fx-border-color: yellow;
+}
+
+#entries .list-cell:selected {
+    -fx-background-color: #57525A;
+}
+#entries .list-cell:selected .label {
+    -fx-text-fill: white;
+}
+#entries .list-cell:selected .separator *.line {
+    -fx-border-color: white;
+}
+
+#teamsScroll > .viewport {
+    -fx-background-color: #c0c3c8;
+}
+
+#teamsScroll {
+    -fx-background-color: black;
+}
+
+#teamspok{
+    -fx-background-color: #f3eee6;
+} 

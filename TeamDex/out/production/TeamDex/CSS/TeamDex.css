@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 déc. 2017, 08:40:05
+    Author     : Gabin
+*/
+
+#combob {
+    -fx-background-color: #161D3A;
+}
+
+#combob > .list-cell {
+    -fx-text-fill: #ffffff;
+}
+
+
+#glob{
+    -fx-background-color: #B62D30;
+}
+
+#tabpane{
+    -fx-background-color: #8c1810;
+}
+
+#tabpane .tab-header-background {
+    -fx-background-color: #8c1810;
+}
+
+#tabpane .tab
+{
+    -fx-background-color: #161D3A;
+}
+
+#tabpane .tab-label
+{
+    -fx-text-fill: white;
+}
+
+#namestats{
+    -fx-background-color: #B62D30;
+}
+
+#teamspane {
+    -fx-background-color: #B62D30;
+}
+
+
+
+.list-view .list-cell .separator *.line {
+    -fx-border-style: solid;
+    -fx-border-width: 0 1 0 0; /* its make really one-pixel-border */
+}
+
+.list-view .list-cell {
+    -fx-background-color: #4F4B4D;
+}
+.list-view .list-cell .label {
+    -fx-text-fill: #A29798;
+}
+.list-view .list-cell .separator *.line {
+    -fx-border-color: #A29798;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #57525A;
+}
+.list-view .list-cell:selected .label {
+    -fx-text-fill: white;
+}
+.list-view .list-cell:selected .separator *.line {
+    -fx-border-color: white;
+}
